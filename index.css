@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+ background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,115,1) 0%, rgba(192,0,255,1) 59%);
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+}
+#head{
+    display: flex;
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+    margin-top: 8vh;
+     margin-left: 4vw;
+}
+#head img{
+    width: 5vw;
+    height: auto;
+}
+#add-notes{
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(192,0,255,1) 0%, rgba(121,9,115,1) 100%);
+    border-radius: 18px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    outline: none;
+    border: 0;
+    margin-top: 5vh;
+    margin-left: 4vw;
+}
+#add-notes img{
+    width: 25px;
+    margin-left: 2vw;
+}
+.delete-img{
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 7vw;
+    width: 2vw;
+    cursor: pointer;
+}
+.input-box{
+    background-color: white;
+   max-width: 30vw;
+   min-height: 20vh;
+   max-height: 22vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    display: grid;
+    border: 5px groove white;
+    word-break: break-all;
+    overflow: auto;
+}
